@@ -1,29 +1,9 @@
-# README #
+![Tesser_logo](https://docs.google.com/drawings/d/e/2PACX-1vT26NziYMaLrGHlvNspiJ9dOjXR6hZyVxrGwfkgV1MwvMTWtAWh5ZUqMsit5gSllXemcGajjddqfqnc/pub?w=131&h=129)
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+# TesserAkt #
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
+[Objects](https://bitbucket.org/AdrianArtacho/workspace/projects/TESSER) within the *TESSER* environment are designed for real-time interaction. This environement is developed and mantained by [Adrian Artacho](https://bitbucket.org/AdrianArtacho/).
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
