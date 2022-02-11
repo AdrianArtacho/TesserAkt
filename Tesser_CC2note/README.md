@@ -5,6 +5,14 @@ This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtac
 ![TTESS:Logo](https://docs.google.com/drawings/d/e/2PACX-1vT26NziYMaLrGHlvNspiJ9dOjXR6hZyVxrGwfkgV1MwvMTWtAWh5ZUqMsit5gSllXemcGajjddqfqnc/pub?w=131&h=129)
 
 
+=======
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+![TTESS:Logo](https://bitbucket.org/AdrianArtacho/tesserakt/raw/HEAD/TESSER_logo.png)
+
+
+#  Tesser_CC2note #
+>>>>>>> 258e7ab1cbcc078b63d468c95597cea3bb24930c
 
 This device typically takes a CC as input and outputs a midinote.
 
