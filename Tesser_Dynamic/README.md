@@ -1,10 +1,7 @@
 # README #
 
-<<<<<<< HEAD
-Y si lo cambio ora vez?
-=======
-Y si lo cambio otra vez?
->>>>>>> 7ab2dfb6b7f0598470fc3da1d7c2f05e82cda609
+          
+Una última vez.
 
 ### What is this repository for? ###
 
