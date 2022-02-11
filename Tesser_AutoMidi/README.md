@@ -18,3 +18,7 @@ This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtac
 * Database configuration
 * How to run tests
 * Deployment instructions
+<<<<<<< HEAD
+=======
+
+>>>>>>> 290b7ba8fc9851c84903eba109c6f22e8635ae09
