@@ -43,6 +43,3 @@
 [submodule "Scale"]
 	path = Scale
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_scale.git
-[submodule "Visuals"]
-	path = Visuals
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git
