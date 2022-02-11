@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1170.0, 787.0 ],
+		"rect" : [ 312.0, 84.0, 1170.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,89 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-102",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1182.0, 734.0, 99.0, 22.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr FloorSwitch",
+					"varname" : "FloorSwitch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-101",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1222.0, 798.0, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgoncolor" : [ 0.925490196078431, 0.364705882352941, 0.341176470588235, 1.0 ],
+					"appearance" : 1,
+					"id" : "obj-100",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1222.0, 770.0, 105.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 138.0, 148.0, 96.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_linknames" : 1,
+							"parameter_longname" : "floorswitch_toggle",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "floorswitch",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Floorswitch OFF",
+					"texton" : "Floorswitch ON",
+					"varname" : "floorswitch_toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-99",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1051.0, 173.0, 65.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 100.0, 49.5, 77.0, 20.0 ],
+					"text" : "clientwindow",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-95",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1197.0, 813.0, 121.0, 22.0 ],
+					"patching_rect" : [ 1222.0, 847.0, 121.0, 22.0 ],
 					"text" : "send FloorSwitch107"
 				}
 
@@ -376,7 +454,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1245.0, 412.0, 89.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 176.0, 148.0, 61.0, 15.0 ],
+					"presentation_rect" : [ 187.0, 131.0, 61.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -526,7 +604,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 987.0, 219.0, 75.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 49.5, 75.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 222.5, 75.0, 20.0 ],
 					"text" : "storagewindow"
 				}
 
@@ -550,7 +628,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 4, 56, 379, 266 ],
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 79, 1034, 207 ]
@@ -2016,6 +2094,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"source" : [ "obj-101", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-100", 0 ],
+					"source" : [ "obj-102", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 1 ],
 					"order" : 2,
 					"source" : [ "obj-12", 0 ]
@@ -2556,14 +2655,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
-					"order" : 2,
-					"source" : [ "obj-70", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-73", 1 ],
 					"order" : 1,
 					"source" : [ "obj-70", 0 ]
 				}
@@ -2571,7 +2662,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
+					"destination" : [ "obj-73", 1 ],
 					"order" : 0,
 					"source" : [ "obj-70", 0 ]
 				}
@@ -2807,8 +2898,16 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-99", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
+			"obj-100" : [ "floorswitch_toggle", "floorswitch", 0 ],
 			"obj-12" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-16" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-17" : [ "live.toggle[1]", "live.toggle", 0 ],
