@@ -1,6 +1,6 @@
 # Tesser_AutoMidi #
 
-This Patch is part of the TESSER environment.
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/README.md).
 
 ![TTESS:Logo](https://docs.google.com/drawings/d/e/2PACX-1vT26NziYMaLrGHlvNspiJ9dOjXR6hZyVxrGwfkgV1MwvMTWtAWh5ZUqMsit5gSllXemcGajjddqfqnc/pub?w=131&h=129)
 
@@ -18,10 +18,3 @@ This Patch is part of the TESSER environment.
 * Database configuration
 * How to run tests
 * Deployment instructions
-
-# TESSER environment #
-
-This device is part of a larger *TESSER* environment for real-time interaction, developed by [Adrian Artacho](https://bitbucket.org/AdrianArtacho/).
-Here you can find more [information about the project](TesserAkt.md) and the [related objects](https://bitbucket.org/AdrianArtacho/workspace/projects/TESSER).
-
-![Tesser_logo](https://docs.google.com/drawings/d/e/2PACX-1vT26NziYMaLrGHlvNspiJ9dOjXR6hZyVxrGwfkgV1MwvMTWtAWh5ZUqMsit5gSllXemcGajjddqfqnc/pub?w=131&h=129)
