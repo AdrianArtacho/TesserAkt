@@ -1,6 +1,3 @@
-[submodule "PgCh"]
-	path = PgCh
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pgch.git
 [submodule "Range"]
 	path = Range
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ranges.git
@@ -46,3 +43,6 @@
 [submodule "tesser_note2cc"]
 	path = tesser_note2cc
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_note2cc.git
+[submodule "tesser_pgch"]
+	path = tesser_pgch
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pgch.git
