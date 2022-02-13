@@ -1,6 +1,3 @@
-[submodule "Cue"]
-	path = Cue
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cue.git
 [submodule "Delay"]
 	path = Delay
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_delay.git
@@ -46,3 +43,6 @@
 [submodule "tesser_clips"]
 	path = tesser_clips
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clips.git
+[submodule "tesser_cue"]
+	path = tesser_cue
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cue.git
