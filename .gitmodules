@@ -1,6 +1,3 @@
-[submodule "Dynamic"]
-	path = Dynamic
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_dynamic.git
 [submodule "Gesture"]
 	path = Gesture
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gesture.git
@@ -46,3 +43,6 @@
 [submodule "tesser_delay"]
 	path = tesser_delay
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_delay.git
+[submodule "tesser_dynamic"]
+	path = tesser_dynamic
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_dynamic.git
