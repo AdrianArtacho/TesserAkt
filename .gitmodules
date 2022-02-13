@@ -43,3 +43,6 @@
 [submodule "Visuals"]
 	path = Visuals
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git
+[submodule "tesser_automidi"]
+	path = tesser_automidi
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_automidi.git
