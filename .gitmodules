@@ -1,6 +1,3 @@
-[submodule "Note2CC"]
-	path = Note2CC
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_note2cc.git
 [submodule "PgCh"]
 	path = PgCh
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pgch.git
@@ -46,3 +43,6 @@
 [submodule "tesser_mirror"]
 	path = tesser_mirror
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mirror.git
+[submodule "tesser_note2cc"]
+	path = tesser_note2cc
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_note2cc.git
