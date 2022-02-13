@@ -43,3 +43,6 @@
 [submodule "tesser_automidi"]
 	path = tesser_automidi
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_automidi.git
+[submodule "tesser_block"]
+	path = tesser_block
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_block.git
