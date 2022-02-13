@@ -1,9 +1,6 @@
 [submodule "Cue"]
 	path = Cue
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cue.git
-[submodule "Block"]
-	path = Block
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_block.git
 [submodule "CC2note"]
 	path = CC2note
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2note.git
