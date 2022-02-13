@@ -1,6 +1,3 @@
-[submodule "Scale"]
-	path = Scale
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_scale.git
 [submodule "Visuals"]
 	path = Visuals
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git
@@ -46,3 +43,6 @@
 [submodule "tesser_ranges"]
 	path = tesser_ranges
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ranges.git
+[submodule "tesser_scale"]
+	path = tesser_scale
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_scale.git
