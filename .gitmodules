@@ -1,6 +1,3 @@
-[submodule "AutoMidi"]
-	path = AutoMidi
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_automidi.git
 [submodule "Cue"]
 	path = Cue
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cue.git
