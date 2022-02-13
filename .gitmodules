@@ -1,6 +1,3 @@
-[submodule "LiveScore"]
-	path = LiveScore
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_livescore.git
 [submodule "Mirror"]
 	path = Mirror
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mirror.git
@@ -46,3 +43,6 @@
 [submodule "tesser_inscore"]
 	path = tesser_inscore
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_inscore.git
+[submodule "tesser_livescore"]
+	path = tesser_livescore
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_livescore.git
