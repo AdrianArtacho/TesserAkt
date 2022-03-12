@@ -46,3 +46,6 @@
 [submodule "tesser_visuals"]
 	path = tesser_visuals
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git
+[submodule "tesser_buffer"]
+	path = tesser_buffer
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_buffer.git
