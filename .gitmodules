@@ -52,3 +52,6 @@
 [submodule "tesser_fractal"]
 	path = tesser_fractal
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fractal.git
+[submodule "tesser_gate"]
+	path = tesser_gate
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gate.git
