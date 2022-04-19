@@ -55,3 +55,6 @@
 [submodule "tesser_gate"]
 	path = tesser_gate
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gate.git
+[submodule "tesser_videoloop"]
+	path = tesser_videoloop
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_videoloop.git
