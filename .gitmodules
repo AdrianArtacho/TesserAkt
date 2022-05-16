@@ -61,3 +61,6 @@
 [submodule "tesser_ramp"]
 	path = tesser_ramp
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ramp.git
+[submodule "tesser_cc2params"]
+	path = tesser_cc2params
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2params.git
