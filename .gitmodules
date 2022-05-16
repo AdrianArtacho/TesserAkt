@@ -79,3 +79,6 @@
 [submodule "tesser_recall"]
 	path = tesser_recall
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_recall.git
+[submodule "tesser_threshold"]
+	path = tesser_threshold
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_threshold.git
