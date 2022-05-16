@@ -18,4 +18,4 @@
 
 - **[Tesser_Mutate]** takes in midi or gesture strings and introduces *mutations*, variations (which can be set to be 1 in x notes, 1 in x seconds... etc.)
 
-- 
+- Rename the other repos called TesserAkt, including the Live sets, which do not have anything to do with the current meaning of TesserAkt now...
