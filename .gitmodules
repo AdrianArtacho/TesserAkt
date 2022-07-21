@@ -97,3 +97,6 @@
 [submodule "tesser_pedal"]
 	path = tesser_pedal
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pedal.git
+[submodule "tesser_funnel"]
+	path = tesser_funnel
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_funnel.git
