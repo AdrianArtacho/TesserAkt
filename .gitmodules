@@ -100,3 +100,6 @@
 [submodule "tesser_funnel"]
 	path = tesser_funnel
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_funnel.git
+[submodule "tesser_function"]
+	path = tesser_function
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_function.git
