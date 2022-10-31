@@ -109,3 +109,6 @@
 [submodule "tesser_nav"]
 	path = tesser_nav
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_nav.git
+[submodule "tesser_freeze"]
+	path = tesser_freeze
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_freeze.git
