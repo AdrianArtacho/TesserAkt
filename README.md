@@ -1,6 +1,6 @@
 ![Tesser_logo](https://docs.google.com/drawings/d/e/2PACX-1vT26NziYMaLrGHlvNspiJ9dOjXR6hZyVxrGwfkgV1MwvMTWtAWh5ZUqMsit5gSllXemcGajjddqfqnc/pub?w=131&h=129)
 
-The [**TesserAkt** environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/) is a collection of MaxForLive devices designed for real-time midi manipulation. These devices were developed in the context of the Fraktale Lab, within the artistic research project [Atlas of Smooth Spaces](https://www.the-smooth.space/) ([FWF 640](https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder/51560)) at the University of Music and Performing Arts Vienna.
+The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/) is a collection of MaxForLive devices designed for real-time midi manipulation. These devices were developed in the context of the Fraktale Lab, within the artistic research project [Atlas of Smooth Spaces](https://www.the-smooth.space/) ([FWF 640](https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder/51560)) at the University of Music and Performing Arts Vienna.
 
 ### Credits and access
 
