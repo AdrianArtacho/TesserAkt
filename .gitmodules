@@ -112,3 +112,6 @@
 [submodule "tesser_freeze"]
 	path = tesser_freeze
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_freeze.git
+[submodule "tesser_antiphon"]
+	path = tesser_antiphon
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_antiphon.git
