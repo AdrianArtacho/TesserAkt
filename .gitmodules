@@ -115,3 +115,6 @@
 [submodule "tesser_antiphon"]
 	path = tesser_antiphon
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_antiphon.git
+[submodule "tesser_agogic"]
+	path = tesser_agogic
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_agogic.git
