@@ -118,3 +118,6 @@
 [submodule "tesser_agogic"]
 	path = tesser_agogic
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_agogic.git
+[submodule "tesser_phase"]
+	path = tesser_phase
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_phase.git
