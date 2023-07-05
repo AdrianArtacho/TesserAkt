@@ -2,6 +2,13 @@
 
 The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/) is a collection of MaxForLive devices designed for real-time midi manipulation. These devices were developed in the context of the Fraktale Lab, within the artistic research project [Atlas of Smooth Spaces](https://www.the-smooth.space/) ([FWF 640](https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder/51560)) at the University of Music and Performing Arts Vienna.
 
+Dieses Werk wurde mit freundlicher Unterstützung des österreichischen Bundesministeriums für Kunst, Kultur, öffentlicher Dienst und Sport realisiert.
+
+![BMKÖES](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/BMKOES_AT_Logo.svg/640px-BMKOES_AT_Logo.svg.png)
+
+[www.bmkoes.gv.at](https://www.bmkoes.gv.at/)
+
+
 ### Credits and access
 
 This environement is developed and mantained by [Adrian Artacho](https://bitbucket.org/AdrianArtacho/). The online repository can be found here:
