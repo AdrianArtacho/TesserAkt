@@ -121,3 +121,6 @@
 [submodule "tesser_phase"]
 	path = tesser_phase
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_phase.git
+[submodule "tesser_bracket"]
+	path = tesser_bracket
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_bracket.git
