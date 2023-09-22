@@ -130,3 +130,6 @@
 [submodule "tesser_forward"]
 	path = tesser_forward
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_forward.git
+[submodule "tesser_tap"]
+	path = tesser_tap
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_tap.git
