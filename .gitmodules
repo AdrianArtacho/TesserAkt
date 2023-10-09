@@ -133,3 +133,6 @@
 [submodule "tesser_tap"]
 	path = tesser_tap
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_tap.git
+[submodule "tesser_conductor"]
+	path = tesser_conductor
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_conductor.git
