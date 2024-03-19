@@ -145,3 +145,6 @@
 [submodule "tesser_clip2seq"]
 	path = tesser_clip2seq
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clip2seq.git
+[submodule "tesser_IMU"]
+	path = tesser_IMU
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_imu.git
