@@ -148,3 +148,6 @@
 [submodule "tesser_IMU"]
 	path = tesser_IMU
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_imu.git
+[submodule "tesser_osc"]
+	path = tesser_osc
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_osc.git
