@@ -157,3 +157,6 @@
 [submodule "tesser_gap"]
 	path = tesser_gap
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gap.git
+[submodule "tesser_trigger"]
+	path = tesser_trigger
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_trigger.git
