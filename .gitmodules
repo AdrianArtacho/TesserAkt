@@ -154,3 +154,6 @@
 [submodule "tesser_zigzag"]
 	path = tesser_zigzag
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_zigzag.git
+[submodule "tesser_gap"]
+	path = tesser_gap
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gap.git
