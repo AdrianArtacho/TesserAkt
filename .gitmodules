@@ -163,3 +163,6 @@
 [submodule "tesser_ccscale"]
 	path = tesser_ccscale
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ccscale.git
+[submodule "tesser_change"]
+	path = tesser_change
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_change.git
