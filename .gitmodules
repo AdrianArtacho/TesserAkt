@@ -169,3 +169,6 @@
 [submodule "tesser_prompt"]
 	path = tesser_prompt
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_prompt.git
+[submodule "tesser_curve"]
+	path = tesser_curve
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_curve.git
