@@ -172,6 +172,3 @@
 [submodule "tesser_curve"]
 	path = tesser_curve
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_curve.git
-[submodule "tesser_touch"]
-	path = tesser_touch
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_touch.git
