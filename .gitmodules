@@ -175,3 +175,6 @@
 [submodule "tesser_ascii"]
 	path = tesser_ascii
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ascii.git
+[submodule "tesser_set"]
+	path = tesser_set
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_set.git
