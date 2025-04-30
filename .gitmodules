@@ -178,3 +178,6 @@
 [submodule "tesser_set"]
 	path = tesser_set
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_set.git
+[submodule "tesser_extract"]
+	path = tesser_extract
+	url = https://bitbucket.org/AdrianArtacho/tesser_extract
