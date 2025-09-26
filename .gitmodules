@@ -181,3 +181,6 @@
 [submodule "tesser_extract"]
 	path = tesser_extract
 	url = https://bitbucket.org/AdrianArtacho/tesser_extract
+[submodule "tesser_shuffle"]
+	path = tesser_shuffle
+	url = https://github.com/AdrianArtacho/tesser_shuffle.git
