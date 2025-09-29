@@ -181,3 +181,6 @@
 [submodule "tesser_extract"]
 	path = tesser_extract
 	url = https://bitbucket.org/AdrianArtacho/tesser_extract
+[submodule "tesser_receive"]
+	path = tesser_receive
+	url = https://github.com/AdrianArtacho/tesser_receive.git
