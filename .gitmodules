@@ -187,3 +187,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_seq"]
 	path = tesser_seq
 	url = https://github.com/AdrianArtacho/tesser_seq.git
+[submodule "tesser_shuffle"]
+	path = tesser_shuffle
+	url = https://github.com/AdrianArtacho/tesser_shuffle.git
