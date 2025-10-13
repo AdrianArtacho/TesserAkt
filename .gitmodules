@@ -184,3 +184,6 @@ url=https://github.com/AdrianArtacho/tesser_repeat.git
 [submodule "tesser_receive"]
 	path = tesser_receive
 	url = https://github.com/AdrianArtacho/tesser_receive.git
+[submodule "tesser_seq"]
+	path = tesser_seq
+	url = https://github.com/AdrianArtacho/tesser_seq.git
