@@ -190,3 +190,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_shuffle"]
 	path = tesser_shuffle
 	url = https://github.com/AdrianArtacho/tesser_shuffle.git
+[submodule "tesser_pipe"]
+	path = tesser_pipe
+	url = https://github.com/AdrianArtacho/tesser_pipe.git
