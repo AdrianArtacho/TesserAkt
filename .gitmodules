@@ -199,3 +199,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_split"]
 	path = tesser_split
 	url = https://github.com/AdrianArtacho/tesser_split.git
+[submodule "tesser_recode"]
+	path = tesser_recode
+	url = https://github.com/AdrianArtacho/tesser_recode.git
