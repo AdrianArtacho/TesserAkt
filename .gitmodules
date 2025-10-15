@@ -193,3 +193,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_pipe"]
 	path = tesser_pipe
 	url = https://github.com/AdrianArtacho/tesser_pipe.git
+[submodule "tesser_hold"]
+	path = tesser_hold
+	url = https://github.com/AdrianArtacho/tesser_hold.git
