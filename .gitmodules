@@ -196,3 +196,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_hold"]
 	path = tesser_hold
 	url = https://github.com/AdrianArtacho/tesser_hold.git
+[submodule "tesser_split"]
+	path = tesser_split
+	url = https://github.com/AdrianArtacho/tesser_split.git
