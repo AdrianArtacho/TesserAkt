@@ -205,3 +205,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_renote"]
 	path = tesser_renote
 	url = https://github.com/AdrianArtacho/tesser_renote.git
+[submodule "tesser_cc"]
+	path = tesser_cc
+	url = https://github.com/AdrianArtacho/tesser_cc
