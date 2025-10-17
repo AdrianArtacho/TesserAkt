@@ -84,7 +84,7 @@ url=https://github.com/AdrianArtacho/tesser_cmd.git
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_threshold.git
 [submodule "tesser_signal2midi"]
 	path = tesser_signal2midi
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_signal2midi.git
+	url = https://github.com/AdrianArtacho/tesser_signal2midi.git
 [submodule "tesser_clip2cc"]
 	path = tesser_clip2cc
 url=https://github.com/AdrianArtacho/tesser_clip2cc.git
