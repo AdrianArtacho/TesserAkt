@@ -159,7 +159,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	url = https://github.com/AdrianArtacho/tesser_gap.git
 [submodule "tesser_trigger"]
 	path = tesser_trigger
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_trigger.git
+	url = https://github.com/AdrianArtacho/tesser_trigger.git
 [submodule "tesser_ccscale"]
 	path = tesser_ccscale
 	url = https://github.com/AdrianArtacho/tesser_ccscale.git
