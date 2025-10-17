@@ -123,7 +123,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_phase.git
 [submodule "tesser_bracket"]
 	path = tesser_bracket
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_bracket.git
+	url = https://github.com/AdrianArtacho/tesser_bracket.git
 [submodule "tesser_menu"]
 	path = tesser_menu
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_menu.git
