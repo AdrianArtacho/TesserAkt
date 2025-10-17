@@ -69,7 +69,7 @@
 	url = https://github.com/AdrianArtacho/tesser_cc2signal.git
 [submodule "Tesser_cmd"]
 	path = Tesser_cmd
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cmd.git
+url=https://github.com/AdrianArtacho/tesser_cmd.git
 [submodule "tesser_fade"]
 	path = tesser_fade
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fade.git
