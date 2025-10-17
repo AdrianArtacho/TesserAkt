@@ -126,7 +126,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	url = https://github.com/AdrianArtacho/tesser_bracket.git
 [submodule "tesser_menu"]
 	path = tesser_menu
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_menu.git
+	url = https://github.com/AdrianArtacho/tesser_menu.git
 [submodule "tesser_forward"]
 	path = tesser_forward
 	url = https://github.com/AdrianArtacho/tesser_forward.git
