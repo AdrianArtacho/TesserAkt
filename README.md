@@ -45,81 +45,565 @@ The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/ma
 
 ## Submodules
 
-| Name | Description |
-|------|--------------|
-| [tesser_automidi](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_automidi.git) | (non-GitHub repo) |
-| [tesser_block](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_block.git) | (non-GitHub repo) |
-| [tesser_cc2note](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2note.git) | (non-GitHub repo) |
-| [tesser_clips](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clips.git) | (non-GitHub repo) |
-| [tesser_cue](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cue.git) | (non-GitHub repo) |
-| [tesser_delay](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_delay.git) | (non-GitHub repo) |
-| [tesser_dynamic](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_dynamic.git) | (non-GitHub repo) |
-| [tesser_gesture](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gesture.git) | (non-GitHub repo) |
-| [tesser_inscore](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_inscore.git) | (non-GitHub repo) |
-| [tesser_livescore](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_livescore.git) | (non-GitHub repo) |
-| [tesser_mirror](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mirror.git) | (non-GitHub repo) |
-| [tesser_note2cc](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_note2cc.git) | (non-GitHub repo) |
-| [tesser_pgch](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pgch.git) | (non-GitHub repo) |
-| [tesser_ranges](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ranges.git) | (non-GitHub repo) |
-| [tesser_scale](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_scale.git) | (non-GitHub repo) |
-| [tesser_visuals](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git) | (non-GitHub repo) |
-| [tesser_buffer](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_buffer.git) | (non-GitHub repo) |
-| [tesser_fractal](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fractal.git) | (non-GitHub repo) |
-| [tesser_gate](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gate.git) | (non-GitHub repo) |
-| [tesser_videoloop](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_videoloop.git) | (non-GitHub repo) |
-| [tesser_ramp](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ramp.git) | (non-GitHub repo) |
-| [tesser_cc2params](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2params.git) | (non-GitHub repo) |
-| [tesser_cc2signal](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2signal.git) | (non-GitHub repo) |
-| [Tesser_cmd](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cmd.git) | (non-GitHub repo) |
-| [tesser_fade](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fade.git) | (non-GitHub repo) |
-| [tesser_mutate](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mutate.git) | (non-GitHub repo) |
-| [tesser_recall](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_recall.git) | (non-GitHub repo) |
-| [tesser_threshold](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_threshold.git) | (non-GitHub repo) |
-| [tesser_signal2midi](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_signal2midi.git) | (non-GitHub repo) |
-| [tesser_clip2cc](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clip2cc.git) | (non-GitHub repo) |
-| [tesser_route](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_route.git) | (non-GitHub repo) |
-| [tesser_chains](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_chains.git) | (non-GitHub repo) |
-| [tesser_pedal](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pedal.git) | (non-GitHub repo) |
-| [tesser_funnel](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_funnel.git) | (non-GitHub repo) |
-| [tesser_function](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_function.git) | (non-GitHub repo) |
-| [tesser_repeat](https://github.com/AdrianArtacho/tesser_repeat) | A Max for Live device for organic rhythmic repetition — simulating pulse, 💓 heartbeat, and temporal fluctuation. |
-| [tesser_nav](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_nav.git) | (non-GitHub repo) |
-| [tesser_freeze](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_freeze.git) | (non-GitHub repo) |
-| [tesser_antiphon](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_antiphon.git) | (non-GitHub repo) |
-| [tesser_agogic](https://github.com/AdrianArtacho/tesser_agogic) |  |
-| [tesser_phase](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_phase.git) | (non-GitHub repo) |
-| [tesser_bracket](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_bracket.git) | (non-GitHub repo) |
-| [tesser_menu](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_menu.git) | (non-GitHub repo) |
-| [tesser_forward](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_forward.git) | (non-GitHub repo) |
-| [tesser_tap](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_tap.git) | (non-GitHub repo) |
-| [tesser_conductor](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_conductor.git) | (non-GitHub repo) |
-| [tesser_video](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_video.git) | (non-GitHub repo) |
-| [tesser_db2note](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_db2note.git) | (non-GitHub repo) |
-| [tesser_clip2seq](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clip2seq.git) | (non-GitHub repo) |
-| [tesser_IMU](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_imu.git) | (non-GitHub repo) |
-| [tesser_osc](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_osc.git) | (non-GitHub repo) |
-| [tesser_zigzag](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_zigzag.git) | (non-GitHub repo) |
-| [tesser_gap](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gap.git) | (non-GitHub repo) |
-| [tesser_trigger](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_trigger.git) | (non-GitHub repo) |
-| [tesser_ccscale](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ccscale.git) | (non-GitHub repo) |
-| [tesser_change](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_change.git) | (non-GitHub repo) |
-| [tesser_prompt](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_prompt.git) | (non-GitHub repo) |
-| [tesser_curve](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_curve.git) | (non-GitHub repo) |
-| [tesser_ascii](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ascii.git) | (non-GitHub repo) |
-| [tesser_set](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_set.git) | (non-GitHub repo) |
-| [tesser_extract](https://bitbucket.org/AdrianArtacho/tesser_extract) | (non-GitHub repo) |
-| [tesser_receive](https://github.com/AdrianArtacho/tesser_receive) |  |
-| [tesser_seq](https://github.com/AdrianArtacho/tesser_seq) | Midi File sequencer |
-| [tesser_shuffle](https://github.com/AdrianArtacho/tesser_shuffle) |  |
-| [tesser_pipe](https://github.com/AdrianArtacho/tesser_pipe) |  |
-| [tesser_hold](https://github.com/AdrianArtacho/tesser_hold) |  |
-| [tesser_split](https://github.com/AdrianArtacho/tesser_split) |  |
-| [tesser_recode](https://github.com/AdrianArtacho/tesser_recode) |  |
-| [tesser_renote](https://github.com/AdrianArtacho/tesser_renote) |  |
-| [tesser_cc](https://github.com/AdrianArtacho/tesser_cc) |  |
+### tesser_automidi
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_automidi.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_automidi.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
 
 ---
 
+### tesser_block
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_block.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_block.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_cc2note
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2note.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2note.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_clips
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clips.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clips.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_cue
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cue.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cue.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_delay
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_delay.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_delay.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_dynamic
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_dynamic.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_dynamic.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_gesture
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gesture.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gesture.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_inscore
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_inscore.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_inscore.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_livescore
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_livescore.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_livescore.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_mirror
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mirror.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mirror.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_note2cc
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_note2cc.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_note2cc.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_pgch
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pgch.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pgch.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_ranges
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ranges.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ranges.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_scale
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_scale.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_scale.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_visuals
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_buffer
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_buffer.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_buffer.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_fractal
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fractal.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fractal.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_gate
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gate.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gate.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_videoloop
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_videoloop.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_videoloop.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_ramp
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ramp.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ramp.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_cc2params
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2params.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2params.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_cc2signal
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2signal.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2signal.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### Tesser_cmd
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cmd.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cmd.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_fade
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fade.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fade.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_mutate
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mutate.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mutate.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_recall
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_recall.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_recall.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_threshold
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_threshold.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_threshold.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_signal2midi
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_signal2midi.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_signal2midi.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_clip2cc
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clip2cc.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clip2cc.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_route
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_route.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_route.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_chains
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_chains.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_chains.git)
+_No GUI preview available._
+
+Renames midinotes (on the piano roll view, for example) based on an online spreadsheet ( <download-sheet>). Intended use: put it on the same track where the Rack <Midi Note Namer> lives.
+
+---
+
+### tesser_pedal
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pedal.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pedal.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_funnel
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_funnel.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_funnel.git)
+_No GUI preview available._
+
+sdfvs
+
+---
+
+### tesser_function
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_function.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_function.git)
+_No GUI preview available._
+
+making leise notes loud and the louder leise... values in/values out
+
+---
+
+### tesser_repeat
+*Repository:* [https://github.com/AdrianArtacho/tesser_repeat.git](https://github.com/AdrianArtacho/tesser_repeat.git)
+_No GUI preview available._
+
+*A Max for Live device for organic rhythmic repetition — simulating pulse, heartbeat, and temporal fluctuation.*
+
+---
+
+### tesser_nav
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_nav.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_nav.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_freeze
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_freeze.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_freeze.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_antiphon
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_antiphon.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_antiphon.git)
+_No GUI preview available._
+
+This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+
+---
+
+### tesser_agogic
+*Repository:* [https://github.com/AdrianArtacho/tesser_agogic.git](https://github.com/AdrianArtacho/tesser_agogic.git)
+_No GUI preview available._
+
+Experiments in midi sequence storing and manipulation
+
+---
+
+### tesser_phase
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_phase.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_phase.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_bracket
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_bracket.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_bracket.git)
+_No GUI preview available._
+
+The idea is to use this to 'modulate' midi input during a live performance. This device belongs to the _TesserAkt_ environment, and the [CC values](https://docs.google.com/spreadsheets/d/1e3lex1rmAkPrashVEJhEzOoH7P911IOwNRB0M2j2-PA/edit#gid=0) are described [here](https://docs.google.com/spreadsheets/d/1e3lex1rmAkPrashVEJhEzOoH7P911IOwNRB0M2j2-PA/edit#gid=0).
+
+---
+
+### tesser_menu
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_menu.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_menu.git)
+_No GUI preview available._
+
+The idea is that this device reads from an online spreadsheet (using the already existing abstraction).
+
+---
+
+### tesser_forward
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_forward.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_forward.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_tap
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_tap.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_tap.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_conductor
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_conductor.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_conductor.git)
+_No GUI preview available._
+
+The idea is that using the keyboard to follow a score, the device will adapt the tempo of the live session smoothly as to minimise the distance...
+
+---
+
+### tesser_video
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_video.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_video.git)
+_No GUI preview available._
+
+This devide does video and image operations, has parameters accessible via midi, and paths and other configurations via clip names.
+
+---
+
+### tesser_db2note
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_db2note.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_db2note.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_clip2seq
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clip2seq.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clip2seq.git)
+_No GUI preview available._
+
+This Device reads the midi content of a clip (alternatively the string of notes stated in the clip's name) and outputs it in different ways.
+
+---
+
+### tesser_IMU
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_imu.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_imu.git)
+_No GUI preview available._
+
+For instructions on how to use `Tesser_IMU` withthe smartphone App `HyperIMU` go to ths page [HyperIMU + Live](https://bitbucket.org/AdrianArtacho/public_tesser_imu/src/main/).
+
+---
+
+### tesser_osc
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_osc.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_osc.git)
+<img src="tesser_osc/img/gui.png" width="150" alt="tesser_osc GUI">
+
+This device sends out one stream of messages via OSC. It also alllows to store the OSC prefix and to scale the input value as needed.
+
+---
+
+### tesser_zigzag
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_zigzag.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_zigzag.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_gap
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gap.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gap.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_trigger
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_trigger.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_trigger.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_ccscale
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ccscale.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ccscale.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_change
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_change.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_change.git)
+_No GUI preview available._
+
+This device is a slight variation of the `Change CC` device by www.AbletonDrummer.com.
+
+---
+
+### tesser_prompt
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_prompt.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_prompt.git)
+_No GUI preview available._
+
+This M4L device displays dialogs with prompts to the performer.
+
+---
+
+### tesser_curve
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_curve.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_curve.git)
+_No GUI preview available._
+
+tesser_curve
+
+---
+
+### tesser_ascii
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ascii.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ascii.git)
+_No GUI preview available._
+
+This device converts ascii strings into list of numeric values and vice-versa.
+
+---
+
+### tesser_set
+*Repository:* [https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_set.git](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_set.git)
+_No GUI preview available._
+
+This device allows to trigger/send a set of middi messages entered in pseudocode.
+
+---
+
+### tesser_extract
+*Repository:* [https://bitbucket.org/AdrianArtacho/tesser_extract](https://bitbucket.org/AdrianArtacho/tesser_extract)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_receive
+*Repository:* [https://github.com/AdrianArtacho/tesser_receive.git](https://github.com/AdrianArtacho/tesser_receive.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_seq
+*Repository:* [https://github.com/AdrianArtacho/tesser_seq.git](https://github.com/AdrianArtacho/tesser_seq.git)
+<img src="tesser_seq/img/gui.png" width="150" alt="tesser_seq GUI">
+
+The goal of this device is to allow the performer to recall notes stores in midi files in different ways.
+
+---
+
+### tesser_shuffle
+*Repository:* [https://github.com/AdrianArtacho/tesser_shuffle.git](https://github.com/AdrianArtacho/tesser_shuffle.git)
+<img src="tesser_shuffle/img/gui.png" width="150" alt="tesser_shuffle GUI">
+
+This is a MaxForLive device to use for 'SongPuzzle'. Inspired by the 'Kakerlackenorgel'.
+
+---
+
+### tesser_pipe
+*Repository:* [https://github.com/AdrianArtacho/tesser_pipe.git](https://github.com/AdrianArtacho/tesser_pipe.git)
+<img src="tesser_pipe/img/gui.png" width="150" alt="tesser_pipe GUI">
+
+The device simply receives midi information via OSC and produces midi out from it.
+
+---
+
+### tesser_hold
+*Repository:* [https://github.com/AdrianArtacho/tesser_hold.git](https://github.com/AdrianArtacho/tesser_hold.git)
+_No GUI preview available._
+
+This M4L device holds notes according to different schemes.
+
+---
+
+### tesser_split
+*Repository:* [https://github.com/AdrianArtacho/tesser_split.git](https://github.com/AdrianArtacho/tesser_split.git)
+<img src="tesser_split/img/gui.png" width="150" alt="tesser_split GUI">
+
+Splits values above/below a threshold
+
+---
+
+### tesser_recode
+*Repository:* [https://github.com/AdrianArtacho/tesser_recode.git](https://github.com/AdrianArtacho/tesser_recode.git)
+<img src="tesser_recode/img/gui.png" width="150" alt="tesser_recode GUI">
+
+It recode midinotes, CC or Pitch bend messages into one another
+
+---
+
+### tesser_renote
+*Repository:* [https://github.com/AdrianArtacho/tesser_renote.git](https://github.com/AdrianArtacho/tesser_renote.git)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
+
+### tesser_cc
+*Repository:* [https://github.com/AdrianArtacho/tesser_cc](https://github.com/AdrianArtacho/tesser_cc)
+_No GUI preview available._
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+---
 ## License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
