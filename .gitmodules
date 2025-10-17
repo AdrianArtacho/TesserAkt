@@ -135,7 +135,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	url = https://github.com/AdrianArtacho/tesser_tap.git
 [submodule "tesser_conductor"]
 	path = tesser_conductor
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_conductor.git
+	url = https://github.com/AdrianArtacho/tesser_conductor.git
 [submodule "tesser_video"]
 	path = tesser_video
 	url = https://github.com/AdrianArtacho/tesser_video.git
