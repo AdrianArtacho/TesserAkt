@@ -108,7 +108,7 @@ url=https://github.com/AdrianArtacho/tesser_clip2cc.git
 url=https://github.com/AdrianArtacho/tesser_repeat.git
 [submodule "tesser_nav"]
 	path = tesser_nav
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_nav.git
+	url = https://github.com/AdrianArtacho/tesser_nav.git
 [submodule "tesser_freeze"]
 	path = tesser_freeze
 	url = https://github.com/AdrianArtacho/tesser_freeze.git
