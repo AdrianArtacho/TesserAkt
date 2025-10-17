@@ -180,7 +180,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	url = https://github.com/AdrianArtacho/tesser_set.git
 [submodule "tesser_extract"]
 	path = tesser_extract
-	url = https://bitbucket.org/AdrianArtacho/tesser_extract
+	url = https://github.com/AdrianArtacho/tesser_extract.git
 [submodule "tesser_receive"]
 	path = tesser_receive
 	url = https://github.com/AdrianArtacho/tesser_receive.git
