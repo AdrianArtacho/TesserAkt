@@ -111,7 +111,7 @@ url=https://github.com/AdrianArtacho/tesser_repeat.git
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_nav.git
 [submodule "tesser_freeze"]
 	path = tesser_freeze
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_freeze.git
+	url = https://github.com/AdrianArtacho/tesser_freeze.git
 [submodule "tesser_antiphon"]
 	path = tesser_antiphon
 url=https://github.com/AdrianArtacho/tesser_antiphon.git
