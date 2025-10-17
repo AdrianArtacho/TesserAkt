@@ -132,7 +132,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	url = https://github.com/AdrianArtacho/tesser_forward.git
 [submodule "tesser_tap"]
 	path = tesser_tap
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_tap.git
+	url = https://github.com/AdrianArtacho/tesser_tap.git
 [submodule "tesser_conductor"]
 	path = tesser_conductor
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_conductor.git
