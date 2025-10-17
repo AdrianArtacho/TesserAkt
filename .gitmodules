@@ -48,7 +48,7 @@
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git
 [submodule "tesser_buffer"]
 	path = tesser_buffer
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_buffer.git
+	url = https://github.com/AdrianArtacho/tesser_buffer.git
 [submodule "tesser_fractal"]
 	path = tesser_fractal
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fractal.git
