@@ -87,7 +87,7 @@
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_signal2midi.git
 [submodule "tesser_clip2cc"]
 	path = tesser_clip2cc
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clip2cc.git
+url=https://github.com/AdrianArtacho/tesser_clip2cc.git
 [submodule "tesser_route"]
 	path = tesser_route
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_route.git
