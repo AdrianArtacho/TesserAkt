@@ -208,3 +208,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_cc"]
 	path = tesser_cc
 	url = https://github.com/AdrianArtacho/tesser_cc
+[submodule "readme-tools"]
+	path = readme-tools
+	url = https://github.com/AdrianArtacho/readme-tools.git
