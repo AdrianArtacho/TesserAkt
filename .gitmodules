@@ -165,7 +165,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	url = https://github.com/AdrianArtacho/tesser_ccscale.git
 [submodule "tesser_change"]
 	path = tesser_change
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_change.git
+	url = https://github.com/AdrianArtacho/tesser_change.git
 [submodule "tesser_prompt"]
 	path = tesser_prompt
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_prompt.git
