@@ -2,19 +2,6 @@
 
 The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/) is a collection of MaxForLive devices designed for real-time midi manipulation. These devices were developed in the context of the Fraktale Lab, within the artistic research project [Atlas of Smooth Spaces](https://www.the-smooth.space/) ([FWF 640](https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder/51560)) at the University of Music and Performing Arts Vienna.
 
-Dieses Werk wurde mit freundlicher Unterstützung des österreichischen Bundesministeriums für Kunst, Kultur, öffentlicher Dienst und Sport realisiert.
-
-![BMKÖES](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/BMKOES_AT_Logo.svg/640px-BMKOES_AT_Logo.svg.png)
-
-[www.bmkoes.gv.at](https://www.bmkoes.gv.at/)
-
-
-### Credits and access
-
-This environement is developed and mantained by [Adrian Artacho](https://bitbucket.org/AdrianArtacho/). The online repository can be found here:
-
-[https://bitbucket.org/AdrianArtacho/tesserakt/](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/)
-
 ---
 
 | Name                                                                          | Description                                           |
@@ -54,3 +41,88 @@ This environement is developed and mantained by [Adrian Artacho](https://bitbuck
 | [tesser_threshold](https://bitbucket.org/AdrianArtacho/tesser_threshold/)     | Allows/Blocks midi input based on threshold values    |
 | [tesser_videoloop](https://bitbucket.org/AdrianArtacho/tesser_videoloop/)     | Live capture looping                                  |
 | [tesser_visuals](https://bitbucket.org/AdrianArtacho/tesser_visuals/)         | Produce visuals (Max/jitter) based on midi            |
+
+
+## Submodules
+
+| Name | Description |
+|------|--------------|
+| [tesser_automidi](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_automidi.git) | (non-GitHub repo) |
+| [tesser_block](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_block.git) | (non-GitHub repo) |
+| [tesser_cc2note](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2note.git) | (non-GitHub repo) |
+| [tesser_clips](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clips.git) | (non-GitHub repo) |
+| [tesser_cue](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cue.git) | (non-GitHub repo) |
+| [tesser_delay](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_delay.git) | (non-GitHub repo) |
+| [tesser_dynamic](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_dynamic.git) | (non-GitHub repo) |
+| [tesser_gesture](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gesture.git) | (non-GitHub repo) |
+| [tesser_inscore](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_inscore.git) | (non-GitHub repo) |
+| [tesser_livescore](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_livescore.git) | (non-GitHub repo) |
+| [tesser_mirror](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mirror.git) | (non-GitHub repo) |
+| [tesser_note2cc](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_note2cc.git) | (non-GitHub repo) |
+| [tesser_pgch](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pgch.git) | (non-GitHub repo) |
+| [tesser_ranges](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ranges.git) | (non-GitHub repo) |
+| [tesser_scale](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_scale.git) | (non-GitHub repo) |
+| [tesser_visuals](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git) | (non-GitHub repo) |
+| [tesser_buffer](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_buffer.git) | (non-GitHub repo) |
+| [tesser_fractal](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fractal.git) | (non-GitHub repo) |
+| [tesser_gate](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gate.git) | (non-GitHub repo) |
+| [tesser_videoloop](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_videoloop.git) | (non-GitHub repo) |
+| [tesser_ramp](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ramp.git) | (non-GitHub repo) |
+| [tesser_cc2params](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2params.git) | (non-GitHub repo) |
+| [tesser_cc2signal](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cc2signal.git) | (non-GitHub repo) |
+| [Tesser_cmd](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cmd.git) | (non-GitHub repo) |
+| [tesser_fade](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fade.git) | (non-GitHub repo) |
+| [tesser_mutate](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mutate.git) | (non-GitHub repo) |
+| [tesser_recall](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_recall.git) | (non-GitHub repo) |
+| [tesser_threshold](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_threshold.git) | (non-GitHub repo) |
+| [tesser_signal2midi](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_signal2midi.git) | (non-GitHub repo) |
+| [tesser_clip2cc](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clip2cc.git) | (non-GitHub repo) |
+| [tesser_route](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_route.git) | (non-GitHub repo) |
+| [tesser_chains](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_chains.git) | (non-GitHub repo) |
+| [tesser_pedal](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pedal.git) | (non-GitHub repo) |
+| [tesser_funnel](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_funnel.git) | (non-GitHub repo) |
+| [tesser_function](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_function.git) | (non-GitHub repo) |
+| [tesser_repeat](https://github.com/AdrianArtacho/tesser_repeat) | A Max for Live device for organic rhythmic repetition — simulating pulse, 💓 heartbeat, and temporal fluctuation. |
+| [tesser_nav](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_nav.git) | (non-GitHub repo) |
+| [tesser_freeze](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_freeze.git) | (non-GitHub repo) |
+| [tesser_antiphon](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_antiphon.git) | (non-GitHub repo) |
+| [tesser_agogic](https://github.com/AdrianArtacho/tesser_agogic) |  |
+| [tesser_phase](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_phase.git) | (non-GitHub repo) |
+| [tesser_bracket](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_bracket.git) | (non-GitHub repo) |
+| [tesser_menu](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_menu.git) | (non-GitHub repo) |
+| [tesser_forward](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_forward.git) | (non-GitHub repo) |
+| [tesser_tap](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_tap.git) | (non-GitHub repo) |
+| [tesser_conductor](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_conductor.git) | (non-GitHub repo) |
+| [tesser_video](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_video.git) | (non-GitHub repo) |
+| [tesser_db2note](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_db2note.git) | (non-GitHub repo) |
+| [tesser_clip2seq](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_clip2seq.git) | (non-GitHub repo) |
+| [tesser_IMU](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_imu.git) | (non-GitHub repo) |
+| [tesser_osc](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_osc.git) | (non-GitHub repo) |
+| [tesser_zigzag](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_zigzag.git) | (non-GitHub repo) |
+| [tesser_gap](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gap.git) | (non-GitHub repo) |
+| [tesser_trigger](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_trigger.git) | (non-GitHub repo) |
+| [tesser_ccscale](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ccscale.git) | (non-GitHub repo) |
+| [tesser_change](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_change.git) | (non-GitHub repo) |
+| [tesser_prompt](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_prompt.git) | (non-GitHub repo) |
+| [tesser_curve](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_curve.git) | (non-GitHub repo) |
+| [tesser_ascii](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ascii.git) | (non-GitHub repo) |
+| [tesser_set](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_set.git) | (non-GitHub repo) |
+| [tesser_extract](https://bitbucket.org/AdrianArtacho/tesser_extract) | (non-GitHub repo) |
+| [tesser_receive](https://github.com/AdrianArtacho/tesser_receive) |  |
+| [tesser_seq](https://github.com/AdrianArtacho/tesser_seq) | Midi File sequencer |
+| [tesser_shuffle](https://github.com/AdrianArtacho/tesser_shuffle) |  |
+| [tesser_pipe](https://github.com/AdrianArtacho/tesser_pipe) |  |
+| [tesser_hold](https://github.com/AdrianArtacho/tesser_hold) |  |
+| [tesser_split](https://github.com/AdrianArtacho/tesser_split) |  |
+| [tesser_recode](https://github.com/AdrianArtacho/tesser_recode) |  |
+| [tesser_renote](https://github.com/AdrianArtacho/tesser_renote) |  |
+| [tesser_cc](https://github.com/AdrianArtacho/tesser_cc) |  |
+
+---
+
+## License
+
+This project is licensed under the terms of the [MIT License](LICENSE).
+
+© 2022–2025 [Adrian Artacho](https://github.com/AdrianArtacho)  
+Developed with the kind support of the Austrian Federal Ministry for Arts, Culture, the Civil Service and Sport (BMKÖS).
