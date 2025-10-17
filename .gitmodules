@@ -57,7 +57,7 @@
 	url = https://github.com/AdrianArtacho/tesser_gate.git
 [submodule "tesser_videoloop"]
 	path = tesser_videoloop
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_videoloop.git
+	url = https://github.com/AdrianArtacho/tesser_videoloop.git
 [submodule "tesser_ramp"]
 	path = tesser_ramp
 	url = https://github.com/AdrianArtacho/tesser_ramp.git
