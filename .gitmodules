@@ -24,7 +24,7 @@
 	url = https://github.com/AdrianArtacho/tesser_gesture.git
 [submodule "tesser_inscore"]
 	path = tesser_inscore
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_inscore.git
+	url = https://github.com/AdrianArtacho/tesser_inscore.git
 [submodule "tesser_livescore"]
 	path = tesser_livescore
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_livescore.git
