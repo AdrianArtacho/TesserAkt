@@ -7,6 +7,7 @@ The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/ma
 <!-- BEGIN: SUBMODULE_TABLE -->
 | Name | Description | Preview |
 | --- | --- | :---: |
+| [readme-tools](https://github.com/AdrianArtacho/readme-tools.git) | 2) Add it to any meta-repo | – |
 | [tesser_agogic](https://github.com/AdrianArtacho/tesser_agogic.git) | Experiments in midi sequence storing and manipulation | – |
 | [tesser_antiphon](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_antiphon.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [tesser_ascii](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ascii.git) | This device converts ascii strings into list of numeric values and vice-versa. | – |
