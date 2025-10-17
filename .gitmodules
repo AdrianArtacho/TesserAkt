@@ -12,7 +12,7 @@
 	url = https://github.com/AdrianArtacho/tesser_clips.git
 [submodule "tesser_cue"]
 	path = tesser_cue
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_cue.git
+	url = https://github.com/AdrianArtacho/tesser_cue.git
 [submodule "tesser_delay"]
 	path = tesser_delay
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_delay.git
