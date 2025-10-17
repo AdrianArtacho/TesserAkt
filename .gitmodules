@@ -72,7 +72,7 @@
 url=https://github.com/AdrianArtacho/tesser_cmd.git
 [submodule "tesser_fade"]
 	path = tesser_fade
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_fade.git
+	url = https://github.com/AdrianArtacho/tesser_fade.git
 [submodule "tesser_mutate"]
 	path = tesser_mutate
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_mutate.git
