@@ -93,7 +93,7 @@
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_route.git
 [submodule "tesser_chains"]
 	path = tesser_chains
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_chains.git
+	url = https://github.com/AdrianArtacho/tesser_chains.git
 [submodule "tesser_pedal"]
 	path = tesser_pedal
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pedal.git
