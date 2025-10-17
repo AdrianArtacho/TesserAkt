@@ -156,7 +156,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_zigzag.git
 [submodule "tesser_gap"]
 	path = tesser_gap
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_gap.git
+	url = https://github.com/AdrianArtacho/tesser_gap.git
 [submodule "tesser_trigger"]
 	path = tesser_trigger
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_trigger.git
