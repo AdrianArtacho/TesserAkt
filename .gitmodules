@@ -174,7 +174,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_curve.git
 [submodule "tesser_ascii"]
 	path = tesser_ascii
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_ascii.git
+	url = https://github.com/AdrianArtacho/tesser_ascii.git
 [submodule "tesser_set"]
 	path = tesser_set
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_set.git
