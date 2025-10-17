@@ -96,7 +96,7 @@ url=https://github.com/AdrianArtacho/tesser_clip2cc.git
 	url = https://github.com/AdrianArtacho/tesser_chains.git
 [submodule "tesser_pedal"]
 	path = tesser_pedal
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pedal.git
+	url = https://github.com/AdrianArtacho/tesser_pedal.git
 [submodule "tesser_funnel"]
 	path = tesser_funnel
 	url = https://github.com/AdrianArtacho/tesser_funnel.git
