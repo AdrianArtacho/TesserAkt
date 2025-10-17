@@ -150,7 +150,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	url = https://github.com/AdrianArtacho/tesser_IMU.git
 [submodule "tesser_osc"]
 	path = tesser_osc
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_osc.git
+	url = https://github.com/AdrianArtacho/tesser_osc.git
 [submodule "tesser_zigzag"]
 	path = tesser_zigzag
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_zigzag.git
