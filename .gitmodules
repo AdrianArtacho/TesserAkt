@@ -67,8 +67,8 @@
 [submodule "tesser_cc2signal"]
 	path = tesser_cc2signal
 	url = https://github.com/AdrianArtacho/tesser_cc2signal.git
-[submodule "Tesser_cmd"]
-	path = Tesser_cmd
+[submodule "tesser_cmd"]
+	path = tesser_cmd
 url=https://github.com/AdrianArtacho/tesser_cmd.git
 [submodule "tesser_fade"]
 	path = tesser_fade
