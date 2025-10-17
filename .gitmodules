@@ -18,7 +18,7 @@
 	url = https://github.com/AdrianArtacho/tesser_delay.git
 [submodule "tesser_dynamic"]
 	path = tesser_dynamic
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_dynamic.git
+	url = https://github.com/AdrianArtacho/tesser_dynamic.git
 [submodule "tesser_gesture"]
 	path = tesser_gesture
 	url = https://github.com/AdrianArtacho/tesser_gesture.git
