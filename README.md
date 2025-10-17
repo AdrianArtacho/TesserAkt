@@ -26,11 +26,11 @@ The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/ma
 | [tesser_clips](https://github.com/AdrianArtacho/tesser_clips.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [Tesser_cmd](https://github.com/AdrianArtacho/tesser_cmd.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [tesser_conductor](https://github.com/AdrianArtacho/tesser_conductor.git) | The idea is that using the keyboard to follow a score, the device will adapt the tempo of the live session smoothly as to minimise the distance... | – |
-| [tesser_cue](https://github.com/AdrianArtacho/tesser_cue.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
+| [tesser_cue](https://github.com/AdrianArtacho/tesser_cue.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_cue/HEAD/img/gui.png" width="140" alt="tesser_cue GUI"> |
 | [tesser_curve](https://github.com/AdrianArtacho/tesser_curve.git) | tesser_curve | – |
 | [tesser_db2note](https://github.com/AdrianArtacho/tesser_db2note.git) | This README would normally document whatever steps are necessary to get your application up and running. | – |
-| [tesser_delay](https://github.com/AdrianArtacho/tesser_delay.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
-| [tesser_dynamic](https://github.com/AdrianArtacho/tesser_dynamic.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
+| [tesser_delay](https://github.com/AdrianArtacho/tesser_delay.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_delay/HEAD/img/gui.png" width="140" alt="tesser_delay GUI"> |
+| [tesser_dynamic](https://github.com/AdrianArtacho/tesser_dynamic.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_dynamic/HEAD/img/gui.png" width="140" alt="tesser_dynamic GUI"> |
 | [tesser_extract](https://github.com/AdrianArtacho/tesser_extract.git) | This README would normally document whatever steps are necessary to get your application up and running. | – |
 | [tesser_fade](https://github.com/AdrianArtacho/tesser_fade.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [tesser_forward](https://github.com/AdrianArtacho/tesser_forward.git) | This README would normally document whatever steps are necessary to get your application up and running. | – |
