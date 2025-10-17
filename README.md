@@ -4,6 +4,7 @@ The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/ma
 
 ---
 
+<!-- BEGIN: SUBMODULE_TABLE -->
 | Name | Description | Preview |
 | --- | --- | :---: |
 | [tesser_agogic](https://github.com/AdrianArtacho/tesser_agogic.git) | Experiments in midi sequence storing and manipulation | – |
@@ -76,6 +77,7 @@ The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/ma
 | [tesser_videoloop](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_videoloop.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [tesser_visuals](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [tesser_zigzag](https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_zigzag.git) | This README would normally document whatever steps are necessary to get your application up and running. | – |
+<!-- END: SUBMODULE_TABLE -->
 
 ---
 ## License
