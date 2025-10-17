@@ -42,7 +42,7 @@
 	url = https://github.com/AdrianArtacho/tesser_ranges.git
 [submodule "tesser_scale"]
 	path = tesser_scale
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_scale.git
+	url = https://github.com/AdrianArtacho/tesser_scale.git
 [submodule "tesser_visuals"]
 	path = tesser_visuals
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_visuals.git
