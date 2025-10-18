@@ -1,4 +1,6 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10.5281/zenodo.17379257.svg)](https://doi.org/10.5281/zenodo.10.5281/zenodo.17379257)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17379257.svg)](https://doi.org/10.5281/zenodo.17379257)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
+
 
 ![Tesser_logo](img/TESSER_logo.png)
 
