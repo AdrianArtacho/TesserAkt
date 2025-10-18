@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10.5281/zenodo.17379257.svg)](https://doi.org/10.5281/zenodo.10.5281/zenodo.17379257)
+
 ![Tesser_logo](img/TESSER_logo.png)
 
 The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/) is a collection of MaxForLive devices designed for real-time midi manipulation. These devices were developed in the context of the Fraktale Lab, within the artistic research project [Atlas of Smooth Spaces](https://www.the-smooth.space/) ([FWF 640](https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder/51560)) at the University of Music and Performing Arts Vienna.
