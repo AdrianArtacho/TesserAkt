@@ -211,3 +211,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_cmd"]
 	path = tesser_cmd
 	url = https://github.com/AdrianArtacho/tesser_cmd.git
+[submodule "tesser_insert"]
+	path = tesser_insert
+	url = https://github.com/AdrianArtacho/tesser_insert.git
