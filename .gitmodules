@@ -220,3 +220,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_nth"]
 	path = tesser_nth
 	url = https://github.com/AdrianArtacho/tesser_nth.git
+[submodule "tesser_parallax"]
+	path = tesser_parallax
+	url = https://github.com/AdrianArtacho/tesser_parallax.git
