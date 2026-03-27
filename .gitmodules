@@ -229,3 +229,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_ccMapper"]
 	path = tesser_ccMapper
 	url = https://github.com/AdrianArtacho/tesser_ccMapper.git
+[submodule "tesser_smooth"]
+	path = tesser_smooth
+	url = https://github.com/AdrianArtacho/tesser_smooth.git
