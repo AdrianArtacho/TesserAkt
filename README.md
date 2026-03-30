@@ -22,6 +22,7 @@ The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/ma
 | [tesser_cc2note](https://github.com/AdrianArtacho/tesser_cc2note.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [tesser_cc2params](https://github.com/AdrianArtacho/tesser_cc2params.git) | This README would normally document whatever steps are necessary to get your application up and running. | – |
 | [tesser_cc2signal](https://github.com/AdrianArtacho/tesser_cc2signal.git) | This README would normally document whatever steps are necessary to get your application up and running. | – |
+| [tesser_ccMapper](https://github.com/AdrianArtacho/tesser_ccMapper.git) | tesser_ccMapper | – |
 | [tesser_ccscale](https://github.com/AdrianArtacho/tesser_ccscale.git) | **tesser_scale** is a [Max for Live](https://www.ableton.com/en/live/max-for-live/) device that **rescales incoming MIDI Control Change (CC) values** from one range to another — similar in concept to Max’s native `scale` object, but optimized for continuous MIDI control streams. | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_ccscale/HEAD/img/gui.png" width="140" alt="tesser_ccscale GUI"> |
 | [tesser_chains](https://github.com/AdrianArtacho/tesser_chains.git) | Renames midinotes (on the piano roll view, for example) based on an online spreadsheet ( <download-sheet>). Intended use: put it on the same track where the Rack <Midi Note Namer> lives. | – |
 | [tesser_change](https://github.com/AdrianArtacho/tesser_change.git) | This device is a slight variation of the `Change CC` device by www.AbletonDrummer.com. | – |
@@ -49,15 +50,17 @@ The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/ma
 | [tesser_IMU](https://github.com/AdrianArtacho/tesser_IMU.git) | For instructions on how to use `Tesser_IMU` withthe smartphone App `HyperIMU` go to ths page [HyperIMU + Live](https://bitbucket.org/AdrianArtacho/public_tesser_imu/src/main/). | – |
 | [tesser_inscore](https://github.com/AdrianArtacho/tesser_inscore.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_inscore/HEAD/img/gui.png" width="140" alt="tesser_inscore GUI"> |
 | [tesser_insert](https://github.com/AdrianArtacho/tesser_insert.git) | This M4Live device processes different MIDI inputs to handle a 'insert switch'. | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_insert/HEAD/img/gui.png" width="140" alt="tesser_insert GUI"> |
+| [tesser_ioi](https://github.com/AdrianArtacho/tesser_ioi.git) | [tesser_ioi] (Takes notes in, measures IOI, spits it out as CC) | – |
 | [tesser_livescore](https://github.com/AdrianArtacho/tesser_livescore.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_livescore/HEAD/img/gui.png" width="140" alt="tesser_livescore GUI"> |
 | [tesser_menu](https://github.com/AdrianArtacho/tesser_menu.git) | The idea is that this device reads from an online spreadsheet (using the already existing abstraction). | – |
 | [tesser_mirror](https://github.com/AdrianArtacho/tesser_mirror.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_mirror/HEAD/img/gui.png" width="140" alt="tesser_mirror GUI"> |
 | [tesser_mutate](https://github.com/AdrianArtacho/tesser_mutate.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [tesser_nav](https://github.com/AdrianArtacho/tesser_nav.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [tesser_note2cc](https://github.com/AdrianArtacho/tesser_note2cc.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_note2cc/HEAD/img/gui.png" width="140" alt="tesser_note2cc GUI"> |
-| [tesser_nth](https://github.com/AdrianArtacho/tesser_nth.git) | _No README found._ | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_nth/HEAD/img/gui.png" width="140" alt="tesser_nth GUI"> |
+| [tesser_nth](https://github.com/AdrianArtacho/tesser_nth.git) | This device spits out th nth element of a set. | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_nth/HEAD/img/gui.png" width="140" alt="tesser_nth GUI"> |
 | [tesser_offnotes](https://github.com/AdrianArtacho/tesser_offnotes.git) | simple handling of midi notes off: | – |
 | [tesser_osc](https://github.com/AdrianArtacho/tesser_osc.git) | This device sends out one stream of messages via OSC. It also alllows to store the OSC prefix and to scale the input value as needed. | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_osc/HEAD/img/gui.png" width="140" alt="tesser_osc GUI"> |
+| [tesser_parallax](https://github.com/AdrianArtacho/tesser_parallax.git) | This device: | – |
 | [tesser_pedal](https://github.com/AdrianArtacho/tesser_pedal.git) | This README would normally document whatever steps are necessary to get your application up and running. | – |
 | [tesser_pgch](https://github.com/AdrianArtacho/tesser_pgch.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_pgch/HEAD/img/gui.png" width="140" alt="tesser_pgch GUI"> |
 | [tesser_phase](https://github.com/AdrianArtacho/tesser_phase.git) | This README would normally document whatever steps are necessary to get your application up and running. | – |
@@ -76,6 +79,7 @@ The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/ma
 | [tesser_set](https://github.com/AdrianArtacho/tesser_set.git) | This device allows to trigger/send a set of middi messages entered in pseudocode. | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_set/HEAD/img/gui.png" width="140" alt="tesser_set GUI"> |
 | [tesser_shuffle](https://github.com/AdrianArtacho/tesser_shuffle.git) | This is a MaxForLive device to use for 'SongPuzzle'. Inspired by the 'Kakerlackenorgel'. | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_shuffle/HEAD/img/gui.png" width="140" alt="tesser_shuffle GUI"> |
 | [tesser_signal2midi](https://github.com/AdrianArtacho/tesser_signal2midi.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
+| [tesser_smooth](https://github.com/AdrianArtacho/tesser_smooth.git) | --- | – |
 | [tesser_split](https://github.com/AdrianArtacho/tesser_split.git) | Splits values above/below a threshold | <img src="https://raw.githubusercontent.com/AdrianArtacho/tesser_split/HEAD/img/gui.png" width="140" alt="tesser_split GUI"> |
 | [tesser_tap](https://github.com/AdrianArtacho/tesser_tap.git) | This README would normally document whatever steps are necessary to get your application up and running. | – |
 | [tesser_threshold](https://github.com/AdrianArtacho/tesser_threshold.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
@@ -84,6 +88,7 @@ The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/ma
 | [tesser_videoloop](https://github.com/AdrianArtacho/tesser_videoloop.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [tesser_visuals](https://github.com/AdrianArtacho/tesser_visuals.git) | This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/). | – |
 | [tesser_zigzag](https://github.com/AdrianArtacho/tesser_zigzag.git) | This README would normally document whatever steps are necessary to get your application up and running. | – |
+| [tools](https://github.com/AdrianArtacho/git_tools.git) | This repository provides a small collection of **Bash utilities** to make working with **Git submodules** and **commit hooks** more efficient and less repetitive. | – |
 <!-- END: SUBMODULE_TABLE -->
 
 ---
