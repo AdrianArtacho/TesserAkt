@@ -232,3 +232,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_smooth"]
 	path = tesser_smooth
 	url = https://github.com/AdrianArtacho/tesser_smooth.git
+[submodule "tools"]
+	path = tools
+	url = https://github.com/AdrianArtacho/git_tools.git
