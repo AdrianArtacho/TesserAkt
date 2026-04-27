@@ -235,3 +235,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_syncedtrigger"]
 	path = tesser_syncedtrigger
 	url = https://github.com/AdrianArtacho/tesser_syncedtrigger.git
+[submodule "tesser_convert"]
+	path = tesser_convert
+	url = https://github.com/AdrianArtacho/tesser_convert.git
