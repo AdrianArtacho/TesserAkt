@@ -98,3 +98,10 @@ This project is licensed under the terms of the [MIT License](LICENSE).
 
 © 2022–2025 [Adrian Artacho](https://github.com/AdrianArtacho)  
 Developed with the kind support of the Austrian Federal Ministry for Arts, Culture, the Civil Service and Sport (BMKÖS).
+
+<!-- ASSET_UPLOADER_CONFIG
+LOCAL_PATH="/Users/adrian/Music/Ableton/User Library/M4L/tesser"
+GOOGLE_DRIVE_FOLDER=https://drive.google.com/drive/folders/1xKV8zmSkW3-fa92KqxgBKAykPezw9UZ9
+EXTENSIONS=.amxd
+ZIP_NAME_TEMPLATE={name}.zip
+-->
