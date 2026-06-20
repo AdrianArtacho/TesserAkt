@@ -50,7 +50,7 @@
 	path = tesser_buffer
 	url = https://github.com/AdrianArtacho/tesser_buffer.git
 [submodule "tesser_fractal"]
-	path = tesser_fractal
+	path = morphisms/tesser_fractal
 	url = https://github.com/AdrianArtacho/tesser_fractal.git
 [submodule "tesser_gate"]
 	path = core/tesser_gate
@@ -218,7 +218,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	path = tesser_nth
 	url = https://github.com/AdrianArtacho/tesser_nth.git
 [submodule "tesser_parallax"]
-	path = tesser_parallax
+	path = morphisms/tesser_parallax
 	url = https://github.com/AdrianArtacho/tesser_parallax.git
 [submodule "tesser_ioi"]
 	path = tesser_ioi
