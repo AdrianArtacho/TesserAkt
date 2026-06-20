@@ -8,7 +8,7 @@
 	path = tesser_cc2note
 	url = https://github.com/AdrianArtacho/tesser_cc2note.git
 [submodule "tesser_clips"]
-	path = tesser_clips
+	path = core/tesser_clips
 	url = https://github.com/AdrianArtacho/tesser_clips.git
 [submodule "tesser_cue"]
 	path = agents/tesser_cue
@@ -17,7 +17,7 @@
 	path = operators/tesser_delay
 	url = https://github.com/AdrianArtacho/tesser_delay.git
 [submodule "tesser_dynamic"]
-	path = tesser_dynamic
+	path = agents/tesser_dynamic
 	url = https://github.com/AdrianArtacho/tesser_dynamic.git
 [submodule "tesser_gesture"]
 	path = tesser_gesture
@@ -32,22 +32,22 @@
 	path = operators/tesser_mirror
 	url = https://github.com/AdrianArtacho/tesser_mirror.git
 [submodule "tesser_note2cc"]
-	path = tesser_note2cc
+	path = core/tesser_note2cc
 	url = https://github.com/AdrianArtacho/tesser_note2cc.git
 [submodule "tesser_pgch"]
-	path = tesser_pgch
+	path = bridges/tesser_pgch
 	url = https://github.com/AdrianArtacho/tesser_pgch.git
 [submodule "tesser_ranges"]
-	path = tesser_ranges
+	path = operators/tesser_ranges
 	url = https://github.com/AdrianArtacho/tesser_ranges.git
 [submodule "tesser_scale"]
-	path = tesser_scale
+	path = operators/tesser_scale
 	url = https://github.com/AdrianArtacho/tesser_scale.git
 [submodule "tesser_visuals"]
 	path = bridges/tesser_visuals
 	url = https://github.com/AdrianArtacho/tesser_visuals.git
 [submodule "tesser_buffer"]
-	path = tesser_buffer
+	path = bridges/tesser_buffer
 	url = https://github.com/AdrianArtacho/tesser_buffer.git
 [submodule "tesser_fractal"]
 	path = morphisms/tesser_fractal
@@ -59,7 +59,7 @@
 	path = bridges/tesser_videoloop
 	url = https://github.com/AdrianArtacho/tesser_videoloop.git
 [submodule "tesser_ramp"]
-	path = tesser_ramp
+	path = operators/tesser_ramp
 	url = https://github.com/AdrianArtacho/tesser_ramp.git
 [submodule "tesser_cc2params"]
 	path = tesser_cc2params
@@ -95,13 +95,13 @@ url=https://github.com/AdrianArtacho/tesser_clip2cc.git
 	path = tesser_pedal
 	url = https://github.com/AdrianArtacho/tesser_pedal.git
 [submodule "tesser_funnel"]
-	path = tesser_funnel
+	path = core/tesser_funnel
 	url = https://github.com/AdrianArtacho/tesser_funnel.git
 [submodule "tesser_function"]
 	path = tesser_function
 	url = https://github.com/AdrianArtacho/tesser_function.git
 [submodule "tesser_repeat"]
-	path = tesser_repeat
+	path = agents/tesser_repeat
 url=https://github.com/AdrianArtacho/tesser_repeat.git
 [submodule "tesser_nav"]
 	path = tesser_nav
@@ -155,16 +155,16 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	path = tesser_gap
 	url = https://github.com/AdrianArtacho/tesser_gap.git
 [submodule "tesser_trigger"]
-	path = tesser_trigger
+	path = operators/tesser_trigger
 	url = https://github.com/AdrianArtacho/tesser_trigger.git
 [submodule "tesser_ccscale"]
-	path = tesser_ccscale
+	path = core/tesser_ccscale
 	url = https://github.com/AdrianArtacho/tesser_ccscale.git
 [submodule "tesser_change"]
 	path = core/tesser_change
 	url = https://github.com/AdrianArtacho/tesser_change.git
 [submodule "tesser_prompt"]
-	path = tesser_prompt
+	path = agents/tesser_prompt
 	url = https://github.com/AdrianArtacho/tesser_prompt.git
 [submodule "tesser_curve"]
 	path = tesser_curve
@@ -173,7 +173,7 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	path = bridges/tesser_ascii
 	url = https://github.com/AdrianArtacho/tesser_ascii.git
 [submodule "tesser_set"]
-	path = tesser_set
+	path = core/tesser_set
 	url = https://github.com/AdrianArtacho/tesser_set.git
 [submodule "tesser_extract"]
 	path = tesser_extract
@@ -182,13 +182,13 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	path = tesser_receive
 	url = https://github.com/AdrianArtacho/tesser_receive.git
 [submodule "tesser_seq"]
-	path = tesser_seq
+	path = bridges/tesser_seq
 	url = https://github.com/AdrianArtacho/tesser_seq.git
 [submodule "tesser_shuffle"]
-	path = tesser_shuffle
+	path = agents/tesser_shuffle
 	url = https://github.com/AdrianArtacho/tesser_shuffle.git
 [submodule "tesser_pipe"]
-	path = tesser_pipe
+	path = bridges/tesser_pipe
 	url = https://github.com/AdrianArtacho/tesser_pipe.git
 [submodule "tesser_hold"]
 	path = tesser_hold
@@ -197,31 +197,31 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 	path = core/tesser_split
 	url = https://github.com/AdrianArtacho/tesser_split.git
 [submodule "tesser_recode"]
-	path = tesser_recode
+	path = core/tesser_recode
 	url = https://github.com/AdrianArtacho/tesser_recode.git
 [submodule "tesser_renote"]
 	path = tesser_renote
 	url = https://github.com/AdrianArtacho/tesser_renote.git
 [submodule "tesser_cc"]
-	path = tesser_cc
+	path = bridges/tesser_cc
 	url = https://github.com/AdrianArtacho/tesser_cc
 [submodule "tesser_cmd"]
 	path = agents/tesser_cmd
 	url = https://github.com/AdrianArtacho/tesser_cmd.git
 [submodule "tesser_insert"]
-	path = tesser_insert
+	path = bridges/tesser_insert
 	url = https://github.com/AdrianArtacho/tesser_insert.git
 [submodule "tesser_offnotes"]
-	path = tesser_offnotes
+	path = core/tesser_offnotes
 	url = https://github.com/AdrianArtacho/tesser_offnotes.git
 [submodule "tesser_nth"]
-	path = tesser_nth
+	path = operators/tesser_nth
 	url = https://github.com/AdrianArtacho/tesser_nth.git
 [submodule "tesser_parallax"]
 	path = morphisms/tesser_parallax
 	url = https://github.com/AdrianArtacho/tesser_parallax.git
 [submodule "tesser_ioi"]
-	path = tesser_ioi
+	path = operators/tesser_ioi
 	url = https://github.com/AdrianArtacho/tesser_ioi.git
 [submodule "tesser_ccMapper"]
 	path = core/tesser_ccMapper
