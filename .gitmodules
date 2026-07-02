@@ -98,7 +98,7 @@ url=https://github.com/AdrianArtacho/tesser_clip2cc.git
 	path = core/tesser_funnel
 	url = https://github.com/AdrianArtacho/tesser_funnel.git
 [submodule "tesser_function"]
-	path = other/tesser_freeze/tesser_function
+	path = other/tesser_function
 	url = https://github.com/AdrianArtacho/tesser_function.git
 [submodule "tesser_repeat"]
 	path = agents/tesser_repeat
@@ -244,3 +244,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "bridges/tesser2circle"]
 	path = bridges/tesser2circle
 	url = https://github.com/AdrianArtacho/tesser2circle
+[submodule "operators/tesser_freeze"]
+	path = operators/tesser_freeze
+	url = https://github.com/AdrianArtacho/tesser_freeze.git
