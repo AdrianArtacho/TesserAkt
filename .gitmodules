@@ -238,3 +238,9 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "tesser_convert"]
 	path = core/tesser_convert
 	url = https://github.com/AdrianArtacho/tesser_convert.git
+[submodule "core/tesser_pitchclass"]
+	path = core/tesser_pitchclass
+	url = https://github.com/AdrianArtacho/tesser_pitchclass
+[submodule "bridges/tesser2circle"]
+	path = bridges/tesser2circle
+	url = https://github.com/AdrianArtacho/tesser2circle
