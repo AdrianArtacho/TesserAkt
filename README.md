@@ -3,7 +3,26 @@
 
 ![Tesser_logo](https://raw.githubusercontent.com/AdrianArtacho/TesserAkt/HEAD/img/TESSER_logo.png)
 
-The [**TesserAkt** library](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/) is a collection of MaxForLive devices designed for real-time midi manipulation. These devices were developed in the context of the Fraktale Lab, within the artistic research project [Atlas of Smooth Spaces](https://www.the-smooth.space/) ([FWF 640](https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder/51560)) at the University of Music and Performing Arts Vienna.
+# [Tesserakt 2.0](https://adrianartacho.github.io/TesserAkt/site/)
+
+**Compose the relationships.** Tesserakt is a modular Max for Live environment for MIDI, OSC and signal flow. This second iteration builds on the published TesserAkt library and frames its architecture through **second-order cybernetics**: the performer is part of the system they observe, configure and play. Listening, acting and changing the mappings form a circular process.
+
+| Layer | Role | Location |
+| --- | --- | --- |
+| Operators | Elementary operations on MIDI events and values. | [operators/](operators/) |
+| Bridges | Convert and connect different sources and forms of data. | [bridges/](bridges/) |
+| Morphisms | Articulate transformations into patterns, gestures and structures. | [morphisms/](morphisms/) |
+| Agents | Organise behaviour across a performance: cueing, prompting, repeating and coordinating. | [agents/](agents/) |
+
+The repository also holds [core utilities](core/) and [further experiments](other/). “Agent” describes a role in this architecture; it does not imply that every device learns or is autonomous.
+
+The [original TesserAkt library](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/) was developed in the context of the Fraktale Lab, within the artistic research project [Atlas of Smooth Spaces](https://www.the-smooth.space/) ([FWF 640](https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder/51560)) at the University of Music and Performing Arts Vienna. The existing DOI above remains the archive reference; this presentation does not mint or announce a new software release.
+
+[Explore the website](https://adrianartacho.github.io/TesserAkt/site/) · [Performance Research Lab portal](https://muk-research.github.io/PORTAL/) · [Project-owned portal contract](portal/README.md)
+
+## Website publishing
+
+`site/index.html` is the full presentation. `portal/` owns the metadata, thumbnail and silent interactive preview consumed by MUK's PORTAL. Update the shared visual in `site/scene.js`, then run `python scripts/build-site.py` and commit the regenerated `portal/index.html`. The build packages only the presentation into `_site/`; it never initialises device submodules. The **Publish Tesserakt** workflow publishes both `/site/` and `/portal/` and redirects the public root to `/site/`. Repository **Settings → Pages → Source** must be **GitHub Actions**.
 
 [📁 download devices](https://drive.google.com/drive/folders/1xKV8zmSkW3-fa92KqxgBKAykPezw9UZ9?usp=sharing)
 

@@ -50,3 +50,6 @@ Thumbs.db
 
 # VENV
 .venv
+
+# Generated website artifact
+_site/

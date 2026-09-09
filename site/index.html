@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="Tesserakt 2.0: a modular Max for Live environment for MIDI, OSC and signal flow. Operators, bridges, morphisms and agents, with the performer inside the loop.">
+  <title>Tesserakt 2.0 — Compose the relationships.</title>
+  <link rel="icon" href="./mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./scene.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead wrap">
+    <a class="identity" href="#" aria-label="Tesserakt home"><img src="./mark.svg" alt="" width="28" height="28"> TESSERAKT <span class="version">2.0</span></a>
+    <nav aria-label="Main navigation"><a href="#architecture">Architecture</a><a href="#feedback">In the loop</a><a href="https://github.com/AdrianArtacho/TesserAkt">Repository <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="title">
+      <div class="eyebrow hero-eyebrow"><span>A modular environment for live interaction</span><span>MAX FOR LIVE / MIDI / OSC</span></div>
+      <h1 id="title">TESSERAKT<span>2.0</span></h1>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h2>Compose the<br><em>relationships.</em></h2>
+          <p>Small operations. Connected worlds. Behaviours that unfold through interaction.</p>
+          <p class="muted">A family of Max for Live devices for composing with MIDI, OSC and signal flow — from a single transformation to a system you perform with.</p>
+          <div class="actions"><a class="button primary" href="#architecture">Explore the four layers <span aria-hidden="true">↓</span></a><a class="text-link" href="https://drive.google.com/drive/folders/1xKV8zmSkW3-fa92KqxgBKAykPezw9UZ9?usp=sharing">Get the devices ↗</a></div>
+          <div class="edition"><span class="eyebrow">THE SECOND ITERATION</span><p>Building on the published TesserAkt library, 2.0 brings its architecture into focus through second-order cybernetics: the performer belongs inside the system.</p></div>
+        </div>
+        <div class="instrument" data-instrument>
+          <div class="instrument-header"><span class="eyebrow">01—04 / RELATIONAL FIELD</span><span class="eyebrow">4D → 2D</span></div>
+          <div class="canvas-wrap"><canvas role="img" aria-label="A rotating projection of a four-dimensional cube. Four colours represent the four device layers. Select a layer to highlight its connections."></canvas><span class="canvas-note">A visual metaphor for a connected instrument</span></div>
+          <div class="layer-controls" role="group" aria-label="Explore a layer">
+            <button type="button" data-layer="0" aria-pressed="true"><span>01</span> Operators</button><button type="button" data-layer="1" aria-pressed="false"><span>02</span> Bridges</button><button type="button" data-layer="2" aria-pressed="false"><span>03</span> Morphisms</button><button type="button" data-layer="3" aria-pressed="false"><span>04</span> Agents</button>
+          </div>
+          <div class="scene-caption" aria-live="polite"><strong data-layer-title>Operators · transform an event</strong><p data-layer-description>Elementary MIDI operations: delay, mirror, scale, select or trigger.</p></div>
+          <div class="scene-footer"><span>Illustrative · silent · no MIDI connection</span><div><button type="button" data-pulse>Send a pulse</button><button type="button" data-motion aria-pressed="true">Pause motion</button></div></div>
+          <noscript><p>The four layers are explained below. Enable JavaScript for the interactive projection.</p></noscript>
+        </div>
+      </div>
+      <div class="protocol-line"><span>MIDI / events & control</span><span>OSC / connections & exchange</span><span>SIGNAL FLOW / relations over time</span></div>
+    </section>
+    <section class="architecture wrap" id="architecture" aria-labelledby="architecture-title">
+      <div class="section-heading"><p class="eyebrow">01 / THE ARCHITECTURE</p><div><h2 id="architecture-title">From an operation<br>to an unfolding behaviour.</h2><p>Four levels of articulation. Combine them to shape how events become relationships, and how relationships become a performance.</p></div></div>
+      <article class="layer-row operators"><div class="layer-number">01</div><div><p class="eyebrow">TRANSFORM</p><h3>Operators</h3><code>operators/</code></div><div class="layer-body"><p>Elementary operations on MIDI events and values. Delay a note, mirror a pattern, reshape a range or extract a particular event. Each device gives you a small operation to compose with.</p><div class="device-links"><a href="https://github.com/AdrianArtacho/tesser_delay">tesser_delay ↗</a><a href="https://github.com/AdrianArtacho/tesser_mirror">tesser_mirror ↗</a><a href="https://github.com/AdrianArtacho/tesser_nth">tesser_nth ↗</a></div><a class="folder-link" href="https://github.com/AdrianArtacho/TesserAkt/tree/main/operators">Browse operators ↗</a></div></article>
+      <article class="layer-row bridges"><div class="layer-number">02</div><div><p class="eyebrow">CONNECT</p><h3>Bridges</h3><code>bridges/</code></div><div class="layer-body"><p>Connections between different sources and forms of data. Bring sensor information into a musical setup, translate between MIDI and OSC, or connect control streams to notation and visuals.</p><div class="device-links"><a href="https://github.com/AdrianArtacho/tesser_IMU">tesser_IMU ↗</a><a href="https://github.com/AdrianArtacho/tesser_osc">tesser_osc ↗</a><a href="https://github.com/AdrianArtacho/tesser_pipe">tesser_pipe ↗</a></div><a class="folder-link" href="https://github.com/AdrianArtacho/TesserAkt/tree/main/bridges">Browse bridges ↗</a></div></article>
+      <article class="layer-row morphisms"><div class="layer-number">03</div><div><p class="eyebrow">ARTICULATE</p><h3>Morphisms</h3><code>morphisms/</code></div><div class="layer-body"><p>Higher-level devices that articulate transformations into musical relationships. Here the focus expands from what happens to one event to how a process shapes patterns, gestures and structures over time.</p><div class="device-links"><a href="https://github.com/AdrianArtacho/tesser_fractal">tesser_fractal ↗</a><a href="https://github.com/AdrianArtacho/tesser_parallax">tesser_parallax ↗</a></div><a class="folder-link" href="https://github.com/AdrianArtacho/TesserAkt/tree/main/morphisms">Browse morphisms ↗</a></div></article>
+      <article class="layer-row agents"><div class="layer-number">04</div><div><p class="eyebrow">ORGANISE</p><h3>Agents</h3><code>agents/</code></div><div class="layer-body"><p>The upper layer organises behaviour across a performance: cueing, prompting, repeating or coordinating events. An agent gives a process a role within the encounter between performer and system.</p><div class="device-links"><a href="https://github.com/AdrianArtacho/tesser_conductor">tesser_conductor ↗</a><a href="https://github.com/AdrianArtacho/tesser_prompt">tesser_prompt ↗</a><a href="https://github.com/AdrianArtacho/tesser_repeat">tesser_repeat ↗</a></div><a class="folder-link" href="https://github.com/AdrianArtacho/TesserAkt/tree/main/agents">Browse agents ↗</a></div></article>
+      <p class="architecture-note">The repository also contains <a href="https://github.com/AdrianArtacho/TesserAkt/tree/main/core">core utilities</a> and <a href="https://github.com/AdrianArtacho/TesserAkt/tree/main/other">further experiments</a> supporting this architecture. Individual device repositories hold their own patches and documentation.</p>
+    </section>
+    <section class="feedback" id="feedback" aria-labelledby="feedback-title"><div class="wrap feedback-grid">
+      <div><p class="eyebrow">02 / SECOND-ORDER CYBERNETICS</p><h2 id="feedback-title">The performer<br>is <em>inside</em><br>the loop.</h2></div>
+      <div class="feedback-copy"><p class="large">You shape the system.<br>The system shapes your next gesture.</p><p>Tesserakt 2.0 approaches performance as a circular relationship: listening, acting and adjusting are part of the same process. The performer decides what to attend to, how to interpret a response, and when to change the connections.</p><p>That is its second-order perspective. A feedback cable alone is not enough: the person observing, configuring and playing the instrument is also a participant in what unfolds.</p><div class="loop-example"><p class="eyebrow">ONE POSSIBLE ENCOUNTER</p><p>You play a phrase. Its timing becomes control information. That information reshapes a response. You hear the response, adjust your next phrase, and perhaps change the mapping itself.</p><span class="loop-return">↳ Listen · act · reconfigure · listen again</span></div><p class="small muted">A compositional perspective, not a claim that every device learns or acts autonomously. “Agent” names a role in the architecture.</p></div>
+    </div></section>
+    <section class="about wrap" id="about"><p class="eyebrow">03 / CONTINUITY & PRACTICE</p><div class="about-grid"><div><h2>A new articulation.<br>An existing practice.</h2><p>Tesserakt grew from the Fraktale Lab within <a href="https://www.the-smooth.space/">Atlas of Smooth Spaces</a>, the artistic research project at the University of Music and Performing Arts Vienna (mdw).</p><p>This second iteration builds on that published library. The archive remains a reference for its earlier work; the current repositories document the developing environment.</p><a class="text-link" href="https://doi.org/10.5281/zenodo.17379257">Explore the existing archive ↗</a></div><div class="access"><h3>Build your own relations.</h3><p>Use the Max for Live devices in Ableton Live, connect the pieces your setup needs, and shape a performance from their interaction. Check each device’s documentation for its requirements and routing.</p><div class="actions"><a class="button primary" href="https://drive.google.com/drive/folders/1xKV8zmSkW3-fa92KqxgBKAykPezw9UZ9?usp=sharing">Get the devices ↗</a><a class="text-link" href="https://github.com/AdrianArtacho/TesserAkt">Source & documentation ↗</a></div><p class="small muted">The website is a presentation of the environment. The devices run in Max for Live.</p></div></div></section>
+  </main>
+  <footer class="wrap site-footer"><div><strong>TESSERAKT <span>2.0</span></strong><p>By <a href="https://muk.ac.at/studienangebot/lehrende/details/adrian-artacho.html">Adrián Artacho</a></p></div><div><a href="https://muk-research.github.io/PORTAL/">Performance Research Lab · MUK ↗</a><p class="small">Original library developed with the kind support of BMKÖS.</p><a class="small" href="https://github.com/AdrianArtacho/TesserAkt/blob/main/LICENSE">MIT licence</a></div></footer>
+</body>
+</html>

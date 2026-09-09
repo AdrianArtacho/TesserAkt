@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tesserakt 2.0 — interactive preview</title><style>
+:root{color-scheme:dark;--operators:#d5ff5f;--bridges:#63d8ff;--morphisms:#bb9bff;--agents:#ff9e6b}*{box-sizing:border-box}body{margin:0;background:#10131b;color:#f0f2f7;font:16px Arial,Helvetica,sans-serif}.instrument{padding:16px}header{display:flex;justify-content:space-between;align-items:center;gap:12px}h1{font-size:18px;letter-spacing:-.03em;margin:0}h1 span{font:16px monospace;color:#d5ff5f}header>span{font:12px monospace;color:#a5acba}canvas{display:block;width:100%;height:205px;touch-action:pan-y}.layer-controls{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #353d4c;border-left:1px solid #353d4c}.layer-controls button{font:14px Arial,sans-serif;text-align:left;color:#a5acba;border:0;border-right:1px solid #353d4c;border-bottom:1px solid #353d4c;background:transparent;min-height:40px;padding:10px;cursor:pointer}.layer-controls span{font:12px monospace;margin-right:8px}.layer-controls button:nth-child(1){--layer:#d5ff5f}.layer-controls button:nth-child(2){--layer:#63d8ff}.layer-controls button:nth-child(3){--layer:#bb9bff}.layer-controls button:nth-child(4){--layer:#ff9e6b}.layer-controls button[aria-pressed=true]{color:var(--layer);background:#ffffff08;box-shadow:inset 3px 0 var(--layer)}.scene-caption{margin-top:14px;min-height:70px}.scene-caption strong{font-size:14px;font-weight:400;color:#d5ff5f}.scene-caption p{font-size:14px;line-height:1.4;color:#a5acba;margin:6px 0 14px}footer{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}footer>span{font:12px/1.4 monospace;color:#a5acba}footer>div{display:flex;gap:8px}footer button{font:14px Arial,sans-serif;padding:8px;color:#f0f2f7;border:1px solid #535d70;background:transparent;cursor:pointer;min-height:36px}button:hover{background:#ffffff0c}button:focus-visible{outline:2px solid #d5ff5f;outline-offset:2px}button:disabled{opacity:.5;cursor:default}@media(max-width:350px){.instrument{padding:12px}canvas{height:170px}header>span{display:none}.scene-caption{min-height:84px}}
+</style></head>
+<body><main class="instrument" data-instrument><header><h1>TESSERAKT <span>2.0</span></h1><span>FOUR LAYERS / ONE SYSTEM</span></header>
+<canvas role="img" aria-label="A tesseract projection. Select a layer to highlight a different set of connections."></canvas>
+<div class="layer-controls" role="group" aria-label="Explore a layer"><button data-layer="0" type="button" aria-pressed="true"><span>01</span>Operators</button><button data-layer="1" type="button" aria-pressed="false"><span>02</span>Bridges</button><button data-layer="2" type="button" aria-pressed="false"><span>03</span>Morphisms</button><button data-layer="3" type="button" aria-pressed="false"><span>04</span>Agents</button></div>
+<div class="scene-caption" aria-live="polite"><strong data-layer-title>Operators · transform an event</strong><p data-layer-description>Elementary MIDI operations: delay, mirror, scale, select or trigger.</p></div>
+<footer><span>Illustrative · silent · no MIDI</span><div><button data-pulse type="button">Send a pulse</button><button data-motion type="button" aria-pressed="true">Pause motion</button></div></footer>
+<noscript><p>Operators transform; bridges connect; morphisms articulate; agents organise.</p></noscript></main><script>/* Shared visual metaphor; no MIDI, audio, storage, imports or network requests. */
+(() => {
+  'use strict';
+  const root = document.querySelector('[data-instrument]');
+  if (!root) return;
+  const canvas = root.querySelector('canvas'), ctx = canvas.getContext('2d');
+  const buttons = [...root.querySelectorAll('[data-layer]')];
+  const motionButton = root.querySelector('[data-motion]');
+  const pulseButton = root.querySelector('[data-pulse]');
+  const title = root.querySelector('[data-layer-title]');
+  const description = root.querySelector('[data-layer-description]');
+  const params = new URLSearchParams(location.search), token = params.get('prlToken');
+  const embedded = window.parent !== window;
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  const colours = ['#d5ff5f', '#63d8ff', '#bb9bff', '#ff9e6b'];
+  const labels = [
+    ['Operators · transform an event', 'Elementary MIDI operations: delay, mirror, scale, select or trigger.'],
+    ['Bridges · connect different worlds', 'Translate and connect MIDI, OSC, sensors, notation and visual systems.'],
+    ['Morphisms · articulate relationships', 'Shape transformations into patterns, gestures and structures over time.'],
+    ['Agents · organise behaviour', 'Cue, prompt, repeat and coordinate processes across a performance.']
+  ];
+  // The 16 vertices and 32 edges of a tesseract; colour denotes edge dimension.
+  const vertices = Array.from({length:16}, (_,i) => [0,1,2,3].map(d => (i >> d & 1) ? 1 : -1));
+  const edges = [];
+  vertices.forEach((_,i) => { for(let d=0;d<4;d++) { const j=i^(1<<d); if(j>i) edges.push([i,j,d]); } });
+  let selected=0, phase=.65, pulse=0, width=320, height=300, raf=0, previous=0;
+  let motion=!reduced.matches && params.get('motion')!=='off';
+  let parentActive=params.get('motion')!=='off', inView=true, pointerX=0, pointerY=0;
+  function rotate(v,a,b,t){const x=v[a],y=v[b];v[a]=x*Math.cos(t)-y*Math.sin(t);v[b]=x*Math.sin(t)+y*Math.cos(t);}
+  function project(v){
+    const p=[...v];
+    rotate(p,0,3,phase*.31); rotate(p,1,2,.45+phase*.19);
+    rotate(p,0,2,.5+pointerX*.35); rotate(p,1,3,.25+pointerY*.25);
+    const w=3.5/(3.5-p[3]), z=5/(5-p[2]*w);
+    return [p[0]*w*z,p[1]*w*z,p[2]];
+  }
+  function draw(){
+    if(!ctx)return;
+    ctx.clearRect(0,0,width,height);
+    const projected=vertices.map(project);
+    const scale=Math.min(width*.41/Math.max(...projected.map(p=>Math.abs(p[0]))),height*.41/Math.max(...projected.map(p=>Math.abs(p[1]))));
+    const points=projected.map(p=>[width/2+p[0]*scale,height/2+p[1]*scale,p[2]]);
+    // Quiet reference axes keep the moving projection spatially legible.
+    ctx.strokeStyle='#48536444';ctx.lineWidth=1;ctx.setLineDash([2,6]);
+    ctx.beginPath();ctx.moveTo(width/2,16);ctx.lineTo(width/2,height-16);ctx.moveTo(16,height/2);ctx.lineTo(width-16,height/2);ctx.stroke();ctx.setLineDash([]);
+    for(const [a,b,d] of [...edges].sort((u,v)=>(u[2]===selected)-(v[2]===selected))){
+      const p=points[a],q=points[b],focus=d===selected;
+      ctx.globalAlpha=focus?.9:.23;ctx.strokeStyle=colours[d];ctx.lineWidth=focus?1.8:1;
+      ctx.beginPath();ctx.moveTo(p[0],p[1]);ctx.lineTo(q[0],q[1]);ctx.stroke();
+      if(focus){
+        const t=((phase*.32+a*.071)%1+1)%1;
+        const x=p[0]+(q[0]-p[0])*t,y=p[1]+(q[1]-p[1])*t;
+        ctx.globalAlpha=.95;ctx.fillStyle=colours[d];ctx.beginPath();ctx.arc(x,y,2.2+pulse*1.6,0,Math.PI*2);ctx.fill();
+      }
+    }
+    ctx.globalAlpha=1;
+    for(const p of points){ctx.fillStyle='#eaf0ff';ctx.beginPath();ctx.arc(p[0],p[1],2,0,Math.PI*2);ctx.fill();}
+    if(pulse>0){ctx.strokeStyle=colours[selected];ctx.globalAlpha=pulse*.3;ctx.lineWidth=1;ctx.beginPath();ctx.arc(width/2,height/2,(1-pulse)*Math.min(width,height)*.65+12,0,Math.PI*2);ctx.stroke();ctx.globalAlpha=1;}
+  }
+  function running(){return !!ctx && motion && parentActive && inView && !document.hidden;}
+  function frame(t){
+    raf=0;if(!running())return;
+    if(!previous)previous=t;
+    const delta=t-previous;
+    if(delta>=1000/30){const dt=Math.min(delta,70)/1000;phase+=dt*.52;pulse=Math.max(0,pulse-dt*.8);previous=t;draw();}
+    raf=requestAnimationFrame(frame);
+  }
+  function sync(){
+    cancelAnimationFrame(raf);raf=0;previous=0;
+    motionButton.textContent=motion?'Pause motion':'Enable motion';
+    motionButton.setAttribute('aria-pressed',String(motion));
+    motionButton.disabled=embedded&&!parentActive;
+    draw();if(running())raf=requestAnimationFrame(frame);
+  }
+  function reportSize(){if(embedded)parent.postMessage({type:'prl:resize',token,height:Math.ceil(document.body.getBoundingClientRect().height)},'*');}
+  function resize(){
+    width=Math.max(1,canvas.clientWidth);height=Math.max(1,canvas.clientHeight);
+    const ratio=Math.min(window.devicePixelRatio||1,1.75);
+    canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);
+    if(ctx)ctx.setTransform(ratio,0,0,ratio,0,0);draw();reportSize();
+  }
+  buttons.forEach(button=>button.addEventListener('click',()=>{
+    selected=Number(button.dataset.layer);
+    buttons.forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+    title.textContent=labels[selected][0];title.style.color=colours[selected];description.textContent=labels[selected][1];draw();reportSize();
+  }));
+  pulseButton.addEventListener('click',()=>{pulse=1;phase+=.3;draw();});
+  motionButton.addEventListener('click',()=>{motion=!motion;sync();});
+  canvas.addEventListener('pointermove',event=>{
+    if(!running()||reduced.matches)return;
+    const rect=canvas.getBoundingClientRect();pointerX=(event.clientX-rect.left)/rect.width-.5;pointerY=(event.clientY-rect.top)/rect.height-.5;
+  });
+  canvas.addEventListener('pointerleave',()=>{pointerX=0;pointerY=0;});
+  window.addEventListener('message',event=>{
+    if(!embedded||!token||event.source!==parent||event.data?.token!==token||event.data.type!=='prl:visibility'||typeof event.data.active!=='boolean')return;
+    parentActive=event.data.active;sync();
+  });
+  reduced.addEventListener('change',()=>{if(reduced.matches)motion=false;sync();});
+  document.addEventListener('visibilitychange',sync);
+  window.addEventListener('pagehide',()=>{cancelAnimationFrame(raf);raf=0;});
+  window.addEventListener('pageshow',sync);
+  if('ResizeObserver' in window)new ResizeObserver(resize).observe(root);else window.addEventListener('resize',resize);
+  if('IntersectionObserver' in window)new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;sync();},{threshold:0}).observe(root);
+  if(!ctx){canvas.hidden=true;pulseButton.disabled=true;motionButton.hidden=true;}
+  resize();sync();
+  if(embedded)parent.postMessage({type:'prl:ready',token},'*');
+})();
+</script></body></html>

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "title": "Tesserakt 2.0",
+  "description": "A modular Max for Live environment for MIDI, OSC and signal flow. Operators, bridges, morphisms and agents place the performer inside the feedback loop.",
+  "category": "performance",
+  "format": "Max for Live environment",
+  "status": "active",
+  "people": ["Adrián Artacho"],
+  "tags": ["MIDI", "OSC", "Max for Live", "Second-order cybernetics"],
+  "preview": "./preview.svg",
+  "previewAlt": "A four-dimensional cube projected as nested wireframes, with lime, cyan, violet and orange connections representing the four layers of Tesserakt.",
+  "embed": "./index.html",
+  "project": "../site/",
+  "repository": "https://github.com/AdrianArtacho/TesserAkt",
+  "documentation": "https://github.com/AdrianArtacho/TesserAkt#readme"
+}
