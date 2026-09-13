@@ -247,3 +247,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "operators/tesser_freeze"]
 	path = operators/tesser_freeze
 	url = https://github.com/AdrianArtacho/tesser_freeze.git
+[submodule "bridges/tesser_hyperlink"]
+	path = bridges/tesser_hyperlink
+	url = git@github.com:AdrianArtacho/tesser_hyperlink.git
