@@ -250,3 +250,6 @@ url=https://github.com/AdrianArtacho/tesser_agogic.git
 [submodule "bridges/tesser_hyperlink"]
 	path = bridges/tesser_hyperlink
 	url = git@github.com:AdrianArtacho/tesser_hyperlink.git
+[submodule "operators/tesser_ccTranspose"]
+	path = operators/tesser_ccTranspose
+	url = https://github.com/AdrianArtacho/tesser_ccTranspose.git
